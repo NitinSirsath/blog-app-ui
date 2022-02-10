@@ -23,20 +23,12 @@ const Cardmenu = () => {
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
-              <li className="nav-item active">
-                <a className="nav-link" href="#">
-                  Articles
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Event
-                </a>
-              </li>
+              <li className="nav-item active nav-link">Articles</li>
+              <li className="nav-item nav-link">Event</li>
               <li className="nav-item dropdown">
                 <a
                   className="nav-link "
-                  href="#"
+                  href=""
                   role="button"
                   data-toggle="dropdown"
                   aria-haspopup="true"
@@ -46,7 +38,7 @@ const Cardmenu = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link " href="#">
+                <a className="nav-link " href="">
                   Job
                 </a>
               </li>
