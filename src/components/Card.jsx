@@ -37,19 +37,13 @@ const Card = ({ props }) => {
                     aria-labelledby="dropdownMenuButton1"
                   >
                     <li>
-                      <a className="dropdown-item" href="#">
-                        Edit
-                      </a>
+                      <a className="dropdown-item">Edit</a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
-                        Report
-                      </a>
+                      <a className="dropdown-item">Report</a>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
-                        Option 3
-                      </a>
+                      <a className="dropdown-item">Option 3</a>
                     </li>
                   </ul>
                 </div>
