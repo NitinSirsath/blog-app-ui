@@ -1,0 +1,48 @@
+const data = [ 
+    {
+        tag:'✍️ Article',
+        title:'What if famous brands had regular fonts? Meet RegulaBrands!',
+        desc:'I’ve worked in UX for the better part of a decade. From now on, I plan to rei…',
+        user:'Sarthak Kamra',
+        img:'https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1748&q=80',
+        pfp:'https://cdn-icons.flaticon.com/png/512/3177/premium/3177440.png?token=exp=1644483187~hmac=fc1f696375c90c116d87377354fe1d1c',
+        views:'1.4k views',
+    },
+    {
+        tag:' 🔬️ Education',
+        title:'Tax Benefits for Investment under National Pension Scheme launched by Government',
+        desc:'I’ve worked in UX for the better part of a decade. From now on, I plan to rei…',
+        user:'Sarah West',
+        img:'https://images.unsplash.com/photo-1644440004081-50002bcf6961?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80',
+        pfp:'https://cdn-icons.flaticon.com/png/512/3177/premium/3177440.png?token=exp=1644483187~hmac=fc1f696375c90c116d87377354fe1d1c',
+        views:'1.4k views',
+    },
+    {
+        tag:' 🗓️ Meetup',
+        title:'Finance & Investment Elite Social Mixer @Lujiazui',
+        date:' Fri, 12 Oct, 2018',
+        location:'Ahmedabad, India',
+        visit:'Visit Website',
+        user:'Ronal Jones',
+        btnText:'Visit Website',
+        btnColor:'#E56135',
+        img:'https://images.unsplash.com/photo-1584345604325-f5091269a0d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80',
+        pfp:'https://cdn-icons.flaticon.com/png/512/3177/premium/3177440.png?token=exp=1644483187~hmac=fc1f696375c90c116d87377354fe1d1c',
+        views:'1.4k views',
+    },
+    {
+        tag:' 💼️ Job',
+        title:'Software Developer',
+        date:'Innovaccer Analytics Private Ltd.',
+        location:'Noida, India',
+        visit:'Apply on Timejobs',
+        user:'Joseph Gray',
+        btnText:'Apply on Timejobs',
+        btnColor:'#02B875',
+        img:'',
+        pfp:'https://cdn-icons.flaticon.com/png/512/3177/premium/3177440.png?token=exp=1644483187~hmac=fc1f696375c90c116d87377354fe1d1c',
+        views:'1.4k views',
+    },
+]
+
+export default data;

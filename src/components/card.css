@@ -1,0 +1,30 @@
+.card_hero_img {
+  /* background: url() no-repeat cover center; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 220px;
+  width: 100%;
+}
+
+.card_custom {
+  width: 693px;
+}
+
+.user_pfp {
+  height: 41px;
+  width: 41px;
+  border-radius: 50%;
+}
+
+.btn-custom {
+  background-color: #edeef0;
+}
+
+.custom_color:hover {
+  background-color: #edeef0;
+}
+
+.boldtext {
+  font-weight: bold;
+}

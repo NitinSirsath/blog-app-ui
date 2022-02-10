@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import Mainbg from "./components/Mainbg";
+import Navbar from "./components/Navbar";
+import Card from './components/Card';
+import Cardmenu from './components/Cardmenu';
+import SideTab from './components/SideTab'
+import data from './assets/data'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Mainbg />
+      <Cardmenu />
+      <div className='d-flex container justify-content-between' >
+      <div className='blog_content_wrapper'>{data.map((ele)=>{
+        return <Card key={ele.tag} props={ele}/>
+      })}</div>
+      <div className='side_content_wrapper'>
+
+      <SideTab />
+      </div>
+      </div>
     </div>
   );
 }
