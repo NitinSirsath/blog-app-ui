@@ -1,5 +1,5 @@
 import React from "react";
-import Cardmenu from "./Cardmenu";
+// import Cardmenu from "./Cardmenu";
 import "./card.css";
 
 const Card = ({ props }) => {
