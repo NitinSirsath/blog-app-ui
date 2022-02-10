@@ -46,7 +46,7 @@ const SideTab = () => {
           <h4>RECOMMENDED GROUP</h4>
         </div>
         {suggestion.map((sug) => {
-          return <Suggestions suggestion={sug} />;
+          return <Suggestions key={sug.name} suggestion={sug} />;
         })}
       </div>
     </>

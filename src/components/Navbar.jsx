@@ -53,13 +53,19 @@ const Navbar = () => {
           />
         </div> */}
         <div className="form-group  has-search">
-    <span className=" form-control-feedback"><img
-                src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-1024.png"
-                style={{ height: 25 }}
-                alt=""
-              /></span>
-    <input type="text" class="form-control rounded-pill" placeholder="Search your favourite group in ATG"/>
-  </div>
+          <span className=" form-control-feedback">
+            <img
+              src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-1024.png"
+              style={{ height: 25 }}
+              alt=""
+            />
+          </span>
+          <input
+            type="text"
+            className="form-control rounded-pill"
+            placeholder="Search your favourite group in ATG"
+          />
+        </div>
         <p className="m-0 pe-4 grid-item p-0">
           Create account.<span className="text-primary">It's free</span>
           <span> &#8595;</span>

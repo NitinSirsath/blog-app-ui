@@ -16,15 +16,15 @@ const Card = ({ props }) => {
           ) : (
             <> </>
           )}
-          <div class="card-body ">
+          <div className="card-body ">
             <h6 className="card-text  card_tag">{props.tag}</h6>
             <div className="d-flex align-items-center justify-content-between">
-              <h5 class="card-title">{props.title}</h5>
+              <h5 className="card-title">{props.title}</h5>
 
               <div>
-                <div class="dropdown dropstart">
+                <div className="dropdown dropstart">
                   <button
-                    class="btn shadow-none"
+                    className="btn shadow-none"
                     type="button"
                     id="dropdownMenuButton1"
                     data-bs-toggle="dropdown"
@@ -33,21 +33,21 @@ const Card = ({ props }) => {
                     •••
                   </button>
                   <ul
-                    class="dropdown-menu"
+                    className="dropdown-menu"
                     aria-labelledby="dropdownMenuButton1"
                   >
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#">
                         Edit
                       </a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#">
                         Report
                       </a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a className="dropdown-item" href="#">
                         Option 3
                       </a>
                     </li>
@@ -73,7 +73,7 @@ const Card = ({ props }) => {
               )}
               {props.btnText ? (
                 <button
-                  class="btn custom_color btn-outline-secondary"
+                  className="btn custom_color btn-outline-secondary"
                   style={{ color: props.btnColor }}
                   type="button"
                 >
@@ -84,7 +84,7 @@ const Card = ({ props }) => {
               )}
             </div>
 
-            <p class="card-text">{props.desc}</p>
+            <p className="card-text">{props.desc}</p>
             <div className="d-flex justify-content-between align-items-center">
               <div className="d-flex gap-2 align-items-center">
                 <div
