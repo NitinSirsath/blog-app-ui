@@ -6,9 +6,7 @@ const Cardmenu = () => {
     <>
       <div className="container border_menu">
         <nav className="navbar cardmenu_nav navbar-expand-lg navbar-light bg-light">
-          <a className="navbar-brand" href="#">
-            All post(32)
-          </a>
+          <li className="navbar-brand">All post(32)</li>
           <button
             className="navbar-toggler"
             type="button"
@@ -25,23 +23,8 @@ const Cardmenu = () => {
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active nav-link">Articles</li>
               <li className="nav-item nav-link">Event</li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link "
-                  href=""
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Education
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link " href="">
-                  Job
-                </a>
-              </li>
+              <li className="nav-item dropdown">Education</li>
+              <li className="nav-item">Job</li>
             </ul>
           </div>
           <div>
