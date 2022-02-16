@@ -28,3 +28,9 @@
 .boldtext {
   font-weight: bold;
 }
+
+@media screen and (max-width: 768px) {
+  .card_custom {
+    width: 100%;
+  }
+}

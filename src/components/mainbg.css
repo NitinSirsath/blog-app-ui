@@ -1,45 +1,68 @@
-.heading_mainbg{
-    position: absolute;
-width: 378px;
-height: 47px;
-left: 200px;
-top: 358px;
-
-
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 47px;
-/* identical to box height */
-
-color: #FFFFFF;
-}
-.subheading_mainbg{
-    /* 142,765 Computer Engineers follow this */
-
-position: absolute;
-width: 327px;
-height: 23px;
-left: 200px;
-top: 409px;
-
-font-family: IBM Plex Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 23px;
-
-color: #FFFFFF;
-}
-
-.wrapper{
-    /* position: absolute; */
-width: 1440px;
-height: 440px;
-left: 0px;
-top: 72px;
-background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%);
-background: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1640&q=80');
-background-position: center;
-background-size: cover;
+.heading_mainbg {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;
+    /* identical to box height */
+  
+    color: #ffffff;
   }
+  .subheading_mainbg {
+    /* 142,765 Computer Engineers follow this */
+  
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+  
+    color: #ffffff;
+  }
+  .bottom-flex {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .wrapper {
+    display: flex;
+    /* position: absolute; */
+    height: 440px;
+    left: 0px;
+    top: 72px;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.45) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    );
+    background: url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1640&q=80");
+    background-position: center;
+  }
+  .mobile-navs {
+    display: none;
+  }
+  @media screen and (max-width: 768px) {
+    .heading_mainbg {
+      width: unset;
+      height: unset;
+      bottom: 12px;
+      left: 24px;
+      position: unset;
+    }
+    .subheading_mainbg {
+      top: 340px;
+      width: unset;
+      height: unset;
+      bottom: 12px;
+      left: 24px;
+      position: unset;
+    }
+    .mobile-navs {
+      width: 100%;
+      padding: 20px 20px;
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  

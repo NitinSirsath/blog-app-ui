@@ -8,16 +8,31 @@ import FormModal from "./FormModal";
 const Navbar = () => {
   const [modal, setModal] = useState(false);
 
-  const customStyles = {
-    content: {
-      top: "50%",
-      left: "50%",
-      right: "auto",
-      bottom: "auto",
-      marginRight: "-50%",
-      transform: "translate(-50%, -50%)",
-    },
-  };
+  let customStyles;
+  if (window.outerWidth > 768) {
+    customStyles = {
+      content: {
+        top: "50%",
+        left: "50%",
+        right: "auto",
+        bottom: "auto",
+        marginRight: "-50%",
+        transform: "translate(-50%, -50%)",
+      },
+    };
+  } else {
+    customStyles = {
+      content: {
+        top: "50%",
+        left: "50%",
+        right: "auto",
+        bottom: "auto",
+        marginRight: "-50%",
+        transform: "translate(-50%, -30%)",
+        borderRadius: "16px 16px 0 0",
+      },
+    };
+  }
 
   return (
     <>
