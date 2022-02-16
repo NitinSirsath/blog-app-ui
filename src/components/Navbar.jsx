@@ -36,7 +36,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="nav-bar vw-100">
+      <div className="nav-bar ">
         <div className="p-3 ps-5">
           <span className="text-success">ATG</span>.WORLD
         </div>
