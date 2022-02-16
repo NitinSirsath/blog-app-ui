@@ -27,7 +27,7 @@ const Cardmenu = () => {
               <li className="nav-item nav-link">Job</li>
             </ul>
           </div>
-          <div>
+          <div className="laptop-only">
             <button type="button" className="btn cardmenu_btn btn-secondary">
               Write a Post &#x21e9;{" "}
             </button>

@@ -5,3 +5,14 @@
 .side_content_wrapper {
   flex: 0.3;
 }
+.laptop-flex {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .side_content_wrapper {
+    display: none;
+  }
+  .laptop-flex {
+    display: block;
+  }
+}

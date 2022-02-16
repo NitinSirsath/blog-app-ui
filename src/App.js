@@ -1,10 +1,10 @@
 import Mainbg from "./components/Mainbg";
 import Navbar from "./components/Navbar";
-import Card from './components/Card';
-import Cardmenu from './components/Cardmenu';
-import SideTab from './components/SideTab'
-import data from './assets/data'
-import './App.css';
+import Card from "./components/Card";
+import Cardmenu from "./components/Cardmenu";
+import SideTab from "./components/SideTab";
+import data from "./assets/data";
+import "./App.css";
 
 function App() {
   return (
@@ -12,14 +12,15 @@ function App() {
       <Navbar />
       <Mainbg />
       <Cardmenu />
-      <div className='d-flex container justify-content-between' >
-      <div className='blog_content_wrapper'>{data.map((ele)=>{
-        return <Card key={ele.tag} props={ele}/>
-      })}</div>
-      <div className='side_content_wrapper'>
-
-      <SideTab />
-      </div>
+      <div className="laptop-flex container justify-content-between">
+        <div className="blog_content_wrapper">
+          {data.map((ele) => {
+            return <Card key={ele.tag} props={ele} />;
+          })}
+        </div>
+        <div className="side_content_wrapper">
+          <SideTab />
+        </div>
       </div>
     </div>
   );

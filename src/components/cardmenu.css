@@ -1,16 +1,37 @@
-.cardmenu_nav{
+.cardmenu_nav {
     padding: 10px 20px;
-}
-
-.cardmenu_btn{
+  }
+  
+  .cardmenu_btn {
     margin: 0px 5px;
-}
-.join_png{
+  }
+  .join_png {
     margin: 0px 5px;
     margin-bottom: 3px;
-}
-
-.border_menu{
+  }
+  
+  .border_menu {
     border-bottom: 1px solid lightgrey;
     padding: 0px 1px;
-}
+  }
+  .laptop-only {
+    display: block;
+  }
+  .mobile-only {
+    display: none;
+  }
+  .hide-laptop {
+    display: unset;
+  }
+  @media screen and (max-width: 768px) {
+    .laptop-only {
+      display: none;
+    }
+    .mobile-only {
+      display: block;
+    }
+    .hide-laptop {
+      display: none;
+    }
+  }
+  
