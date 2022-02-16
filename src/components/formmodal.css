@@ -1,0 +1,64 @@
+.modal_container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.heading_box_form {
+  width: 100%;
+  height: 50px;
+  background-color: #effff4;
+}
+
+.heading_form {
+  color: #008a45;
+  text-align: center;
+}
+
+.wrapper_form {
+  padding: 0px 40px;
+  margin-top: 20px;
+  height: 80%;
+}
+
+.left_form {
+  flex: 0.5;
+  height: 100%;
+}
+
+.right_form {
+  flex: 0.5;
+  height: 100%;
+}
+
+.c-grid {
+  display: grid;
+  place-items: center;
+}
+
+.signup_form_wrapper {
+  width: 366px;
+}
+
+.signup_form_wrapper input {
+  height: 46px;
+  background-color: #f7f8fa;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-top: 1px solid grey;
+}
+.form_one {
+  width: 100%;
+}
+
+.form_two {
+  width: 100%;
+  /* width: 320px; */
+}
+
+.createbtn {
+}
