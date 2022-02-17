@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import AuthForm from "./AuthForm";
 import "./formmodal.css";
 
 const FormModal = ({ setModal }) => {
+  const [formType, setFormType] = useState("SignUp");
+
   return (
     <>
       <div className="close_modal" onClick={() => setModal(false)}>
@@ -25,7 +27,7 @@ const FormModal = ({ setModal }) => {
           </div>
         </div>
         <div>
-          <AuthForm type="SignIn" />
+          <AuthForm type={formType} setFormType={setFormType} />
         </div>
       </div>
     </>

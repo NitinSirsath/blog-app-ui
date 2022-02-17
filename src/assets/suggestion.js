@@ -1,21 +1,21 @@
 const suggestion = [
     {
-        img:'https://cdn-icons.flaticon.com/png/512/1921/premium/1921935.png?token=exp=1644496820~hmac=b26df600131648051f3b73a229da821f',
+        img:'./img/park.png',
         name:'Leisure',
         follow: true
     },
     {
-        img:'https://cdn-icons.flaticon.com/png/512/1921/premium/1921935.png?token=exp=1644496820~hmac=b26df600131648051f3b73a229da821f',
+        img:'./img/activism.png',
         name:'Activism',
         follow: false
     },
     {
-        img:'https://cdn-icons.flaticon.com/png/512/1921/premium/1921935.png?token=exp=1644496820~hmac=b26df600131648051f3b73a229da821f',
+        img:'./img/mba.png',
         name:'MBA',
         follow: false
     },
     {
-        img:'https://cdn-icons.flaticon.com/png/512/1921/premium/1921935.png?token=exp=1644496820~hmac=b26df600131648051f3b73a229da821f',
+        img:'./img/philosophy.png',
         name:'Philosophy',
         follow: false
     },

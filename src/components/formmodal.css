@@ -110,11 +110,14 @@
   position: absolute;
   top: 0;
   right: 0;
-  background: gray;
+  background-color: #363636;
   border-radius: 50%;
+  color: #fff;
   height: 20px;
   width: 20px;
   cursor: pointer;
+  display: grid;
+  place-items: center;
 }
 .cta-flex {
   display: flex;

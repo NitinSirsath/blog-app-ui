@@ -27,6 +27,8 @@
   text-align: center;
   pointer-events: none;
   color: #aaa;
+  left: 25.5%;
+  top: 2.3%;
 }
 
 /* .modal {
@@ -45,6 +47,14 @@
     height: 70% !important;
     width: 100% !important;
     padding: 0 !important;
+  }
+  .sm-fs {
+    font-size: x-small;
+  }
+}
+@media screen and (max-width: 500px) {
+  .sm-fs {
+    font-size: xx-small;
   }
 }
 

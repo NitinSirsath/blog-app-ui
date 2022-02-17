@@ -44,6 +44,7 @@ const Navbar = () => {
         <div className="form-group  has-search">
           <span className=" form-control-feedback">
             <img
+              className="laptop-only"
               src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-1024.png"
               style={{ height: 25 }}
               alt=""
@@ -51,12 +52,12 @@ const Navbar = () => {
           </span>
           <input
             type="text"
-            className="form-control rounded-pill"
+            className="form-control nav_input laptop-only rounded-pill"
             placeholder="Search your favourite group in ATG"
           />
         </div>
-        <p className="m-0 pe-4 grid-item p-0">
-          Create account.
+        <p className="m-0 pe-4 grid-item sm-fs p-0">
+          <span> Create account.</span>
           <span onClick={() => setModal(true)} className="text-primary signing">
             It's free
           </span>

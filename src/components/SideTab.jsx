@@ -14,7 +14,7 @@ const SideTab = () => {
             style={{ height: 15 }}
             alt=""
           />
-          <span>Noida,India</span>
+          <span>Noida, India</span>
         </div>
         <div>
           <img
