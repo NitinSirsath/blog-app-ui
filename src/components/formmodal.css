@@ -100,6 +100,16 @@
   background-color: transparent !important;
   text-decoration: none;
 }
+.eye {
+  position: relative;
+  display: flex;
+}
+
+.img_eye {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
 
 .small_tip {
   margin-left: 27px;

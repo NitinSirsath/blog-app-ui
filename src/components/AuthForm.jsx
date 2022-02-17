@@ -72,11 +72,19 @@ const AuthForm = ({ type, setFormType }) => {
                 placeholder="Email"
                 type="text"
               />
-              <input
-                className={`m-0 ${type === "SignIn" ? "br-b" : ""}`}
-                placeholder="Password"
-                type="text"
-              />
+              <span className="eye">
+                <input
+                  className={`m-0 ${type === "SignIn" ? "br-b" : ""}`}
+                  placeholder="Password"
+                  type="text"
+                />
+                <img
+                  className="img_eye"
+                  src="./img/eye.png"
+                  height="15px"
+                  alt=""
+                />
+              </span>
               {type === "SignUp" && (
                 <input
                   className="m-0 br-b"
