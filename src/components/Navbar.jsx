@@ -38,7 +38,7 @@ const Navbar = () => {
     <>
       <div className="nav-bar ">
         <div className="p-3 ps-5">
-          <span className="text-success">ATG</span>.WORLD
+          <span className="text-success">Company</span>.LOGO
         </div>
 
         <div className="form-group  has-search">
@@ -53,7 +53,7 @@ const Navbar = () => {
           <input
             type="text"
             className="form-control nav_input laptop-only rounded-pill"
-            placeholder="Search your favourite group in ATG"
+            placeholder="Search your favourite group"
           />
         </div>
         <p className="m-0 pe-4 grid-item sm-fs p-0">
